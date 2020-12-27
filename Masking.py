@@ -2,7 +2,7 @@
 """
 Created on Fri Dec 25 12:42:33 2020
 
-@author: hp
+@author: Gowrav Tata
 """
 # Masking allows us to focus on certain parts of image that we are focused on
 
