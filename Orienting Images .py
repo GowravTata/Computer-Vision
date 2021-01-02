@@ -12,7 +12,7 @@ seq = np.float32([[0,0],[width,0],[0,height],[width,height]])
 # -- Matrix is to analogise with the coordinates present in image
 matrix = cv.getPerspectiveTransform(coord,seq)
 # -- Attributes are the source, comparative matrix, dimensions
-warp = cv.warpPerspective(img,matrix,(width,height))
-cv.imshow('Warp',warp)
+orient = cv.warpPerspective(img,matrix,(width,height))
+cv.imshow('Oriented',orient)
 
 cv.waitKey(0)
